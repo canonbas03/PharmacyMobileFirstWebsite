@@ -1,6 +1,6 @@
 :root {
     --primary-color: #cc0000;
-    --secondary-color: #29e12c;
+    --secondary-color: #7c0000;
 }
 
 * {
@@ -18,8 +18,6 @@ body {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -162,9 +160,6 @@ body {
 
 #splash.fade {
     opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    height: 0;
 }
 
 @media(min-width: 768px) {
